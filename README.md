@@ -36,8 +36,15 @@ retype the fs functionality.
 	requirer(__dirname).map(function(data){
 		var type = require(data);
 		if(typeof(type) === 'function'){
-			type(app);
+			type(app)
 		}
 	})
 
 ```
+
+#Example Folder
+
+1. To run the example cd into the example folder
+2. Run npm install
+3. Run node index.js
+4. Navigate to `http://localhost:5000/` 
