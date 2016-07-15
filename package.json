@@ -1,0 +1,22 @@
+{
+  "name": "js-file-req",
+  "version": "1.4.0",
+  "description": "A small plugin to quickly allow you to read all files and folders within a directory. Simply pass in the directory name and the plugin will examine the files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "fs",
+    "node",
+    "file",
+    "reading",
+    "shortcut",
+    "array",
+    "mapper",
+    "require",
+    "shortcut"
+  ],
+  "author": "EvanB54",
+  "license": "ISC"
+}
