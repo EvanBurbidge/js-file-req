@@ -17,6 +17,13 @@
     "require",
     "shortcut"
   ],
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/EvanBurbidge/js-file-req.git"
+  },
+  "bugs":{
+    "url":"https://github.com/EvanBurbidge/js-file-req/issues"
+  },
   "author": "EvanB54",
   "license": "ISC"
 }
