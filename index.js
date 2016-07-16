@@ -26,10 +26,5 @@ module.exports = function(dir){
       })
   }
   obj.getFileNames(dir);
-  return obj.routes.map(function(data){
-          var type = require(data);
-          if(typeof(type) === 'function'){
-            type(app);
-          }
-        });
+  return obj.routes
 }
