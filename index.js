@@ -31,10 +31,5 @@ module.exports = function(dir){
 
     obj.getFileNames(dir);
 
-    var arr = obj.routes.filter(function(elem, idx, self){
-        return idx = self.indexOf(elem);
-    });
-
-
-    return arr;
+    return obj.routes;
 };
