@@ -1,6 +1,10 @@
 {
   "name": "js-file-req",
+<<<<<<< HEAD
   "version": "1.5.0",
+=======
+  "version": "1.6.0",
+>>>>>>> 81d3a02c7b75873c4adefc12a836ad1679895d7f
   "description": "A small plugin to quickly allow you to read all files and folders within a directory. Simply pass in the directory name and the plugin will examine the files.",
   "main": "index.js",
   "scripts": {
@@ -17,6 +21,13 @@
     "require",
     "shortcut"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvanBurbidge/js-file-req.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EvanBurbidge/js-file-req/issues"
+  },
   "author": "EvanB54",
   "license": "ISC"
 }
