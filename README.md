@@ -47,4 +47,7 @@ retype the fs functionality.
 1. To run the example cd into the example folder
 2. Run npm install
 3. Run node index.js
-4. Navigate to `http://localhost:5000/` 
+4. Navigate to `http://localhost:5000/`
+
+#UPDATES
+Added contains functionality to test for .map contained in folder sourcemap files.

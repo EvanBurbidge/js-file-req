@@ -7,15 +7,13 @@ module.exports = function(dir){
       obj.name = "";
 
   obj.getFileNames = function(dir){
-
       var self = this;
-
       fs.readdirSync(dir).forEach(function(file){
-
           if(file === 'index.js') return;
 
-          var ext = file.substr(file.length - 3);
+          if(contains(file, 'map')) return;
 
+          var ext = file.substr(file.length - 3);
           if(ext !== '.js'){
 
             self.name = "./" + file;
@@ -33,3 +31,7 @@ module.exports = function(dir){
 
     return obj.routes;
 };
+
+function contains(str, test){
+    return str.indexOf(test) >= 0;
+}
